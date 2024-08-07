@@ -18,8 +18,8 @@ const Page = () => {
   const homeTeamLogo = searchParams.get("homeTeamLogo") || "";
   return (
     <div className="">
-      <div className="container bg-yellow-200 ">
-        <div className="match mt-60">
+      <div className="container  ">
+        <div className="match mt-40 lg:mt-60">
           <div className="match-header">
             <div className="match-status">{matchStatus}</div>
 

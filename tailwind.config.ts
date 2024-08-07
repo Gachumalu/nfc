@@ -16,6 +16,13 @@ const config: Config = {
         purple: "#CBACF9",
         yellows: "#ffc300",
         blacks: "#010101",
+        Edward: "#aeafaf",
+        SweetCorn: "#fbe886",
+        WaikawaGray: "#6575a2",
+        Cabaret: "#d9456a",
+        Perano: "#a0bded",
+        Tamarillo: "#910f29",
+        RoyalBlue: "#453ee3",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

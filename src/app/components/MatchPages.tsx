@@ -19,8 +19,8 @@ const MatchPages: React.FC<MatchPagesProps> = ({
         className={`matches flex flex-col justify-center items-center gap-4 p-4 sm:p-6 md:p-8`}
       >
         <div className="w-full sm:w-80 md:w-96 lg:w-1/2 xl:w-1/3 h-48  ">
-          <h1 className=" uppercase font-bold text-2xl text-blacks">match1</h1>
-          <div className="grid grid-cols-3 gap-4 p-4 sm:p-6 md:p-8 rounded-md bg-slate-200 ">
+          {/* <h1 className=" uppercase font-bold text-2xl text-blacks">match1</h1> */}
+          <div className="grid grid-cols-3 gap-4 p-4 sm:p-6 md:p-8 rounded-md bg-Perano ">
             <div className=" flex justify-center items-center p-4 h-24">
               <img src={team1Image} alt={team1Name} className="rounded-full" />
             </div>
