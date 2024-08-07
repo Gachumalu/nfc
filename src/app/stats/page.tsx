@@ -2,8 +2,8 @@ import React from "react";
 
 const Page = () => {
   return (
-    <div className="bg-yellow-200  h-screen uppercase ">
-      <div className=" pt-40 mx-auto p-4 text-yellows overflow-x-auto">
+    <div className="bg-yellows  h-screen uppercase ">
+      <div className=" pt-40 mx-auto p-4 text-blacks font-semibold overflow-x-auto">
         <div className="mb-8">
           <h2 className="text-2xl font-bold text-center mb-2 uppercase text-blacks ">
             Top Goals
