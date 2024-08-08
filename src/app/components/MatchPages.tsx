@@ -5,6 +5,8 @@ interface MatchPagesProps {
   team2Name: string;
   team1Image: string;
   team2Image: string;
+  team1score: string;
+  team2score: string;
 }
 
 const MatchPages: React.FC<MatchPagesProps> = ({
@@ -12,6 +14,8 @@ const MatchPages: React.FC<MatchPagesProps> = ({
   team2Name,
   team1Image,
   team2Image,
+  team1score,
+  team2score,
 }) => {
   return (
     <div>
@@ -24,8 +28,9 @@ const MatchPages: React.FC<MatchPagesProps> = ({
             <div className=" flex justify-center items-center p-4 h-24">
               <img src={team1Image} alt={team1Name} className="logo-radiuss" />
             </div>
+
             <div className=" flex justify-center items-center p-4 h-24 font-bold text-2xl">
-              vs
+              {team1score} vs {team2score}
             </div>
             <div className=" flex justify-center items-center p-4 h-24">
               <img src={team2Image} alt={team2Name} className="logo-radiuss" />

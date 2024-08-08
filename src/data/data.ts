@@ -77,8 +77,7 @@ export const match4 = {
   referee: "DIXSON PILA",
   homeTeamLogo: "https://nfc-pi.vercel.app/allultimate.jpg",
   homeTeamName: "ALL ULTIMATE",
-  awayTeamLogo:
-    "https://resources.premierleague.com/premierleague/badges/t1.svg",
+  awayTeamLogo: "https://nfc-pi.vercel.app/st-john.jpg",
   awayTeamName: "ST.JOHN",
   homeTeamScore: 0,
   awayTeamScore: 0,

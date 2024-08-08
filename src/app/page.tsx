@@ -40,6 +40,8 @@ export default function Home() {
                 team2Name="PAX 11 "
                 team1Image="all-rounder.jpg"
                 team2Image="pax.jpg"
+                team1score="0"
+                team2score="0"
               />
             </Link>
 
@@ -48,7 +50,7 @@ export default function Home() {
             </h1>
 
             <h1 className=" uppercase text-center items-center relative top-36 lg:top-48 font-bold  text-Cabaret">
-              Time : <span className="text-blacks">09.00 AM</span>
+              Time : <span className="text-blacks">09.45 AM</span>
             </h1>
 
             <Link href={{ pathname: "/matchdetails", query: { ...match2 } }}>
@@ -57,6 +59,8 @@ export default function Home() {
                 team2Name="PALI.PIRATES"
                 team1Image="wadi-boys.jpg"
                 team2Image="https://assets.codepen.io/285131/chelsea.svg"
+                team1score="0"
+                team2score="0"
               />
             </Link>
           </div>
@@ -73,7 +77,7 @@ export default function Home() {
             </h1>
 
             <h1 className=" uppercase text-center items-center relative top-36 lg:top-48 font-bold  text-Cabaret">
-              Time : <span className="text-blacks">09.45 AM</span>
+              Time : <span className="text-blacks">09.00 AM</span>
             </h1>
             <Link href={{ pathname: "/matchdetails", query: { ...match3 } }}>
               <MatchPages
@@ -81,6 +85,8 @@ export default function Home() {
                 team2Name="CTG "
                 team1Image="tuktak.jpg"
                 team2Image="ctg.jpg"
+                team1score="0"
+                team2score="0"
               />
             </Link>
 
@@ -97,7 +103,9 @@ export default function Home() {
                 team1Name="ALL_ULTIMATE"
                 team2Name="ST.JOHN"
                 team1Image="allultimate.jpg"
-                team2Image="https://resources.premierleague.com/premierleague/badges/t1.svg"
+                team2Image="st-john.jpg"
+                team1score="0"
+                team2score="0"
               />
             </Link>
           </div>
@@ -117,7 +125,7 @@ export default function Home() {
             </h1>
 
             <h1 className=" uppercase text-center items-center relative top-36 lg:top-48 font-bold  text-Cabaret">
-              Time : <span className="text-blacks">10.00 AM</span>
+              Time : <span className="text-blacks">9.30 AM</span>
             </h1>
             <Link href={{ pathname: "/matchdetails", query: { ...match5 } }}>
               <MatchPages
@@ -125,6 +133,8 @@ export default function Home() {
                 team2Name="ST.ANTHONY"
                 team1Image="nfc1.jpg"
                 team2Image="st-anthony.jpg"
+                team1score="0"
+                team2score="0"
               />
             </Link>
 
@@ -142,6 +152,8 @@ export default function Home() {
                 team2Name="VIP"
                 team1Image="bfc.jpg"
                 team2Image="vip.png"
+                team1score="0"
+                team2score="0"
               />
             </Link>
           </div>
@@ -159,7 +171,7 @@ export default function Home() {
             </h1>
 
             <h1 className=" uppercase text-center items-center relative top-36 lg:top-48 font-bold  text-Cabaret">
-              Time : <span className="text-blacks">10.30 AM</span>
+              Time : <span className="text-blacks">9.30 AM</span>
             </h1>
             <Link href={{ pathname: "/matchdetails", query: { ...match7 } }}>
               <MatchPages
@@ -167,6 +179,8 @@ export default function Home() {
                 team2Name="DFC"
                 team1Image="stc.jpg"
                 team2Image="dfc.jpg"
+                team1score="0"
+                team2score="0"
               />
             </Link>
 
@@ -175,7 +189,7 @@ export default function Home() {
             </h1>
 
             <h1 className=" uppercase text-center items-center relative top-36 lg:top-48 font-bold  text-Cabaret">
-              Time : <span className="text-blacks">10.30 PM</span>
+              Time : <span className="text-blacks">10.00 PM</span>
             </h1>
 
             <Link href={{ pathname: "/matchdetails", query: { ...match8 } }}>
@@ -184,6 +198,8 @@ export default function Home() {
                 team2Name="ST.JUDE"
                 team1Image="dbu.jpg"
                 team2Image="st-jude.jpg"
+                team1score="0"
+                team2score="0"
               />
             </Link>
           </div>

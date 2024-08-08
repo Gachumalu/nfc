@@ -197,12 +197,12 @@ export const CloseIcon = () => {
 
 const cards = [
   {
-    description: "NFC 2025 WINNERS",
+    description: "NFC 2024 WINNERS",
     title: "CHAPMIONS",
     src: "/nfc1.jpg",
   },
   {
-    description: "NFC 2025 RUNNERS UP",
+    description: "NFC 2024 RUNNERS UP",
     title: "RUNNERS UP",
     src: "/nfc1.jpg",
   },
