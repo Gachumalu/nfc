@@ -29,7 +29,7 @@ const MatchPages: React.FC<MatchPagesProps> = ({
               <img src={team1Image} alt={team1Name} className="logo-radiuss" />
             </div>
 
-            <div className=" flex justify-center items-center p-4 h-24 font-bold text-2xl">
+            <div className=" flex justify-center items-center p-1 h-24 font-bold text-2xl">
               {team1score} vs {team2score}
             </div>
             <div className=" flex justify-center items-center p-4 h-24">
