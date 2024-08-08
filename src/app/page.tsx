@@ -32,7 +32,7 @@ export default function Home() {
             </h1>
 
             <h1 className=" uppercase text-center items-center relative top-36 lg:top-48 font-bold  text-Cabaret">
-              Time : <span className="text-blacks">10.00 AM</span>
+              Time : <span className="text-blacks">09.00 AM</span>
             </h1>
             <Link href={{ pathname: "/matchdetails", query: { ...match1 } }}>
               <MatchPages
@@ -48,7 +48,7 @@ export default function Home() {
             </h1>
 
             <h1 className=" uppercase text-center items-center relative top-36 lg:top-48 font-bold  text-Cabaret">
-              Time : <span className="text-blacks">10.00 AM</span>
+              Time : <span className="text-blacks">09.00 AM</span>
             </h1>
 
             <Link href={{ pathname: "/matchdetails", query: { ...match2 } }}>
@@ -56,7 +56,7 @@ export default function Home() {
                 team1Name="WADI BOYS"
                 team2Name="PALI.PIRATES"
                 team1Image="wadi-boys.jpg"
-                team2Image="godson.png"
+                team2Image="https://assets.codepen.io/285131/chelsea.svg"
               />
             </Link>
           </div>
@@ -73,7 +73,7 @@ export default function Home() {
             </h1>
 
             <h1 className=" uppercase text-center items-center relative top-36 lg:top-48 font-bold  text-Cabaret">
-              Time : <span className="text-blacks">11.00 AM</span>
+              Time : <span className="text-blacks">09.45 AM</span>
             </h1>
             <Link href={{ pathname: "/matchdetails", query: { ...match3 } }}>
               <MatchPages
@@ -89,7 +89,7 @@ export default function Home() {
             </h1>
 
             <h1 className=" uppercase text-center items-center relative top-36 lg:top-48 font-bold  text-Cabaret">
-              Time : <span className="text-blacks">12.00 PM</span>
+              Time : <span className="text-blacks">09.45 PM</span>
             </h1>
 
             <Link href={{ pathname: "/matchdetails", query: { ...match4 } }}>
@@ -97,7 +97,7 @@ export default function Home() {
                 team1Name="ALL_ULTIMATE"
                 team2Name="ST.JOHN"
                 team1Image="allultimate.jpg"
-                team2Image="godson.png"
+                team2Image="https://resources.premierleague.com/premierleague/badges/t1.svg"
               />
             </Link>
           </div>
@@ -117,7 +117,7 @@ export default function Home() {
             </h1>
 
             <h1 className=" uppercase text-center items-center relative top-36 lg:top-48 font-bold  text-Cabaret">
-              Time : <span className="text-blacks">11.00 AM</span>
+              Time : <span className="text-blacks">10.00 AM</span>
             </h1>
             <Link href={{ pathname: "/matchdetails", query: { ...match5 } }}>
               <MatchPages
@@ -133,7 +133,7 @@ export default function Home() {
             </h1>
 
             <h1 className=" uppercase text-center items-center relative top-36 lg:top-48 font-bold  text-Cabaret">
-              Time : <span className="text-blacks">12.00 PM</span>
+              Time : <span className="text-blacks">10.00 PM</span>
             </h1>
 
             <Link href={{ pathname: "/matchdetails", query: { ...match6 } }}>
@@ -159,7 +159,7 @@ export default function Home() {
             </h1>
 
             <h1 className=" uppercase text-center items-center relative top-36 lg:top-48 font-bold  text-Cabaret">
-              Time : <span className="text-blacks">11.00 AM</span>
+              Time : <span className="text-blacks">10.30 AM</span>
             </h1>
             <Link href={{ pathname: "/matchdetails", query: { ...match7 } }}>
               <MatchPages
@@ -175,7 +175,7 @@ export default function Home() {
             </h1>
 
             <h1 className=" uppercase text-center items-center relative top-36 lg:top-48 font-bold  text-Cabaret">
-              Time : <span className="text-blacks">12.00 PM</span>
+              Time : <span className="text-blacks">10.30 PM</span>
             </h1>
 
             <Link href={{ pathname: "/matchdetails", query: { ...match8 } }}>
@@ -183,7 +183,7 @@ export default function Home() {
                 team1Name="DBU"
                 team2Name="ST.JUDE"
                 team1Image="dbu.jpg"
-                team2Image="godson.png"
+                team2Image="st-jude.jpg"
               />
             </Link>
           </div>
