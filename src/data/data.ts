@@ -1,20 +1,20 @@
 export const Teams = [
-  { id: 1, name: "Vip", imageSrc: "godson.png" },
-  { id: 2, name: "Pali pirates", imageSrc: "godson.png" },
-  { id: 3, name: "Wadi boys", imageSrc: "godson.png" },
-  { id: 4, name: "Bfc bhate", imageSrc: "godson.png" },
-  { id: 5, name: "St. Jude Shire", imageSrc: "godson.png" },
-  { id: 6, name: "All Alltiment Pali", imageSrc: "godson.png" },
-  { id: 7, name: "Devtalav", imageSrc: "godson.png" },
-  { id: 8, name: "NFC (CID)", imageSrc: "godson.png" },
-  { id: 9, name: "D.B.U", imageSrc: "godson.png" },
-  { id: 10, name: "Paix 11", imageSrc: "godson.png" },
-  { id: 11, name: "Tuk Tak Boys Pali", imageSrc: "godson.png" },
-  { id: 12, name: "St. John", imageSrc: "godson.png" },
-  { id: 13, name: "Soneri Toli", imageSrc: "godson.png" },
-  { id: 14, name: "Change the Game", imageSrc: "godson.png" },
-  { id: 15, name: "All Rounder", imageSrc: "godson.png" },
-  { id: 16, name: "St. Anthony's Gorai", imageSrc: "godson.png" },
+  { id: 1, name: "Vip", imageSrc: "vip.png" },
+  { id: 2, name: "Pali pirates", imageSrc: "godson.jpg" },
+  { id: 3, name: "Wadi boys", imageSrc: "wadi-boys.jpg" },
+  { id: 4, name: "Bfc bhate", imageSrc: "bfc.jpg" },
+  { id: 5, name: "St. Jude Shire", imageSrc: "st-jude.jpg" },
+  { id: 6, name: "All Alltiment Pali", imageSrc: "allultimate.jpg" },
+  { id: 7, name: "Devtalav", imageSrc: "dfc.jpg" },
+  { id: 8, name: "NFC (CID)", imageSrc: "nfc1.jpg" },
+  { id: 9, name: "D.B.U", imageSrc: "dbu.jpg" },
+  { id: 10, name: "Paix 11", imageSrc: "pax.jpg" },
+  { id: 11, name: "Tuk Tak Boys Pali", imageSrc: "tuktak.jpg" },
+  { id: 12, name: "St. John", imageSrc: "godson.jpg" },
+  { id: 13, name: "Soneri Toli", imageSrc: "stc.jpg" },
+  { id: 14, name: "Change the Game", imageSrc: "ctg.jpg" },
+  { id: 15, name: "All Rounder", imageSrc: "all-rounder.jpg" },
+  { id: 16, name: "St. Anthony's Gorai", imageSrc: "st-anthony.jpg" },
 ];
 
 export const match1 = {
@@ -22,10 +22,10 @@ export const match1 = {
   tournamentLogo: "https://assets.codepen.io/285131/pl-logo.svg",
   tournamentName: "NFC Champions League",
   referee: "DIXSON PILA",
-  homeTeamLogo: "https://assets.codepen.io/285131/chelsea.svg",
+  homeTeamLogo: "https://nfc-pi.vercel.app/pax.jpg",
   homeTeamName: "PAX 11",
   awayTeamLogo:
-    "https://resources.premierleague.com/premierleague/badges/t1.svg",
+    "https://previews.123rf.com/images/mamun25g/mamun25g2111/mamun25g211109078/177441042-pre-triangle-letter-logo-design-with-triangle-shape-pre-triangle-logo-design-monogram-pre-triangle.jpg",
   awayTeamName: "ALL ROUNDER",
   homeTeamScore: 0,
   awayTeamScore: 0,
@@ -37,7 +37,8 @@ export const match2 = {
   tournamentLogo: "https://assets.codepen.io/285131/pl-logo.svg",
   tournamentName: "NFC Champions League",
   referee: "DIXSON PILA",
-  homeTeamLogo: "https://assets.codepen.io/285131/chelsea.svg",
+  homeTeamLogo:
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnR_zEvAf-09A4hBzHF4L4-IUrp8-uPE_LBiM8IZxVsOuK_3yO",
   homeTeamName: "WADI BOYS",
   awayTeamLogo:
     "https://resources.premierleague.com/premierleague/badges/t1.svg",
@@ -53,10 +54,11 @@ export const match3 = {
   tournamentLogo: "https://assets.codepen.io/285131/pl-logo.svg",
   tournamentName: "NFC Champions League",
   referee: "DIXSON PILA",
-  homeTeamLogo: "https://assets.codepen.io/285131/chelsea.svg",
+  homeTeamLogo:
+    "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSd4LwL87zl7Y0T4pV_AwH9nAQTuvvlGQ2p5BhnyCOqZ95Wn2rD",
   homeTeamName: "TUK TAK BOYS",
   awayTeamLogo:
-    "https://resources.premierleague.com/premierleague/badges/t1.svg",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqvudLhR0gaX1XaeBiJhB6oKoKZCBO3Fvois6leW-urXvM03Ai",
   awayTeamName: "CTG",
   homeTeamScore: 0,
   awayTeamScore: 0,
@@ -69,7 +71,8 @@ export const match4 = {
   tournamentLogo: "https://assets.codepen.io/285131/pl-logo.svg",
   tournamentName: "NFC Champions League",
   referee: "DIXSON PILA",
-  homeTeamLogo: "https://assets.codepen.io/285131/chelsea.svg",
+  homeTeamLogo:
+    "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTsozZeMNUqNMcC0pHP0-R9fYhf5czSfSFt6cTsXiMEQEKTLR58",
   homeTeamName: "ALL ULTIMATE",
   awayTeamLogo:
     "https://resources.premierleague.com/premierleague/badges/t1.svg",

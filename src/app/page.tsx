@@ -38,7 +38,7 @@ export default function Home() {
               <MatchPages
                 team1Name="ALL.ROUNDER"
                 team2Name="PAX 11 "
-                team1Image="godson.png"
+                team1Image="all-rounder.jpg"
                 team2Image="pax.jpg"
               />
             </Link>
@@ -55,7 +55,7 @@ export default function Home() {
               <MatchPages
                 team1Name="WADI BOYS"
                 team2Name="PALI.PIRATES"
-                team1Image="godson.png"
+                team1Image="wadi-boys.jpg"
                 team2Image="godson.png"
               />
             </Link>
@@ -77,7 +77,7 @@ export default function Home() {
             </h1>
             <Link href={{ pathname: "/matchdetails", query: { ...match3 } }}>
               <MatchPages
-                team1Name="TUK TAK BOYS"
+                team1Name="TUK_TAK_BOYS"
                 team2Name="CTG "
                 team1Image="tuktak.jpg"
                 team2Image="ctg.jpg"
@@ -94,9 +94,9 @@ export default function Home() {
 
             <Link href={{ pathname: "/matchdetails", query: { ...match4 } }}>
               <MatchPages
-                team1Name="ALL ULTIMATE"
+                team1Name="ALL_ULTIMATE"
                 team2Name="ST.JOHN"
-                team1Image="godson.png"
+                team1Image="allultimate.jpg"
                 team2Image="godson.png"
               />
             </Link>
@@ -123,8 +123,8 @@ export default function Home() {
               <MatchPages
                 team1Name="NFC"
                 team2Name="ST.ANTHONY"
-                team1Image="nfc.jpg"
-                team2Image="godson.png"
+                team1Image="nfc1.jpg"
+                team2Image="st-anthony.jpg"
               />
             </Link>
 
@@ -140,7 +140,7 @@ export default function Home() {
               <MatchPages
                 team1Name="BFC"
                 team2Name="VIP"
-                team1Image="godson.png"
+                team1Image="bfc.jpg"
                 team2Image="vip.png"
               />
             </Link>
@@ -165,8 +165,8 @@ export default function Home() {
               <MatchPages
                 team1Name="STC"
                 team2Name="DFC"
-                team1Image="godson.png"
-                team2Image="godson.png"
+                team1Image="stc.jpg"
+                team2Image="dfc.jpg"
               />
             </Link>
 
