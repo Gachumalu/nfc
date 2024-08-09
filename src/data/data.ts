@@ -17,7 +17,7 @@ export const Teams = [
   {
     id: 12,
     name: "St. John",
-    imageSrc: "https://resources.premierleague.com/premierleague/badges/t1.svg",
+    imageSrc: "st-john.jpg",
   },
   { id: 13, name: "Soneri Toli", imageSrc: "stc.jpg" },
   { id: 14, name: "Change the Game", imageSrc: "ctg.jpg" },
@@ -46,8 +46,7 @@ export const match2 = {
   referee: "DIXSON PILA",
   homeTeamLogo: "https://nfc-pi.vercel.app/wadi-boys.jpg",
   homeTeamName: "WADI BOYS",
-  awayTeamLogo:
-    "https://resources.premierleague.com/premierleague/badges/t1.svg",
+  awayTeamLogo: "https://assets.codepen.io/285131/chelsea.svg",
   awayTeamName: "PALI PIRATES",
   homeTeamScore: 0,
   awayTeamScore: 0,
