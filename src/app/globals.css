@@ -7,10 +7,10 @@
     @apply font-bold text-4xl md:text-5xl text-center;
   }
 }
-/*
-* Created with https://www.css-gradient.com
-* Gradient link: https://www.css-gradient.com/?c1=f9e37c&c2=e0ca5a&gt=l&gd=dtl
-*/
+
+/* Created with https://www.css-gradient.com
+ Gradient link: https://www.css-gradient.com/?c1=f9e37c&c2=e0ca5a&gt=l&gd=dtl */
+
 .bgyellow {
   background: #f8e17983;
   background: linear-gradient(135deg, #f9e37c, #e0ca5a);
@@ -182,11 +182,15 @@ body {
   line-height: 1;
   color: var(--color-text-icon);
   margin-left: 10px;
-  margin-right: 10px;
+  margin-right: 16px;
+  /* padding-right: 6px; */
 }
 
 .match-time-lapsed {
-  color: #df9443;
+  position: absolute;
+  top: 5%;
+  left: 6%;
+  color: #910f29;
   font-size: 14px;
   font-weight: 600;
   margin-top: 8px;
@@ -228,7 +232,7 @@ body {
 
 .mot-player {
   /* background: yellow; */
-  color: #000000;
+  color: #034efd;
   margin-top: 10px;
   padding: 10px;
   font-weight: bold;

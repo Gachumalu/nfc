@@ -36,8 +36,12 @@ export const match1 = {
   awayTeamName: "ALL ROUNDER",
   homeTeamScore: 0,
   awayTeamScore: 0,
-  matchTime: "30 min'",
+  matchTime: "00 min'",
   manOfTheMatch: "",
+  homeTeamPlayerScorers: "",
+  awayTeamPlayerScorers: "",
+  homeTeamPenalty: "",
+  awayTeamPenalty: "",
 };
 export const match2 = {
   matchStatus: "10 AUG",
@@ -50,8 +54,12 @@ export const match2 = {
   awayTeamName: "PALI PIRATES",
   homeTeamScore: 0,
   awayTeamScore: 0,
-  matchTime: "30 min'",
+  matchTime: "00 min'",
   manOfTheMatch: "",
+  homeTeamPlayerScorers: "",
+  awayTeamPlayerScorers: "",
+  homeTeamPenalty: "",
+  awayTeamPenalty: "",
 };
 
 export const match3 = {
@@ -65,8 +73,12 @@ export const match3 = {
   awayTeamName: "CTG",
   homeTeamScore: 0,
   awayTeamScore: 0,
-  matchTime: "30 min'",
+  matchTime: "00 min'",
   manOfTheMatch: "",
+  homeTeamPlayerScorers: "",
+  awayTeamPlayerScorers: "",
+  homeTeamPenalty: "",
+  awayTeamPenalty: "",
 };
 
 export const match4 = {
@@ -80,8 +92,12 @@ export const match4 = {
   awayTeamName: "ST.JOHN",
   homeTeamScore: 0,
   awayTeamScore: 0,
-  matchTime: "30 min'",
+  matchTime: "00 min'",
   manOfTheMatch: "",
+  homeTeamPlayerScorers: "",
+  awayTeamPlayerScorers: "",
+  homeTeamPenalty: "",
+  awayTeamPenalty: "",
 };
 
 export const match5 = {
@@ -95,8 +111,12 @@ export const match5 = {
   awayTeamName: "ST.ANTHONY",
   homeTeamScore: 0,
   awayTeamScore: 0,
-  matchTime: "30 min'",
+  matchTime: "00 min'",
   manOfTheMatch: "",
+  homeTeamPlayerScorers: "",
+  awayTeamPlayerScorers: "",
+  homeTeamPenalty: "",
+  awayTeamPenalty: "",
 };
 
 export const match6 = {
@@ -110,8 +130,12 @@ export const match6 = {
   awayTeamName: "VIP",
   homeTeamScore: 0,
   awayTeamScore: 0,
-  matchTime: "30 min'",
+  matchTime: "00 min'",
   manOfTheMatch: "",
+  homeTeamPlayerScorers: "",
+  awayTeamPlayerScorers: "",
+  homeTeamPenalty: "",
+  awayTeamPenalty: "",
 };
 
 export const match7 = {
@@ -125,8 +149,12 @@ export const match7 = {
   awayTeamName: "DFC",
   homeTeamScore: 0,
   awayTeamScore: 0,
-  matchTime: "30 min'",
+  matchTime: "00 min'",
   manOfTheMatch: "",
+  homeTeamPlayerScorers: "",
+  awayTeamPlayerScorers: "",
+  homeTeamPenalty: "",
+  awayTeamPenalty: "",
 };
 
 export const match8 = {
@@ -140,6 +168,10 @@ export const match8 = {
   awayTeamName: "ST.JUDE",
   homeTeamScore: 0,
   awayTeamScore: 0,
-  matchTime: "30 min'",
+  matchTime: "00 min'",
   manOfTheMatch: "",
+  homeTeamPlayerScorers: "",
+  awayTeamPlayerScorers: "",
+  homeTeamPenalty: "",
+  awayTeamPenalty: "",
 };
