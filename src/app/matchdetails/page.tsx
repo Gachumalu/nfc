@@ -26,9 +26,9 @@ const Page = () => {
   const awayTeamPlayerScorers = searchParams.get("awayTeamPlayerScorers") || "";
 
   const homeTeamPlayerScorers2 =
-    searchParams.get("homeTeamPlayerScorers") || "";
+    searchParams.get("homeTeamPlayerScorers2") || "";
   const awayTeamPlayerScorers2 =
-    searchParams.get("awayTeamPlayerScorers") || "";
+    searchParams.get("awayTeamPlayerScorers2") || "";
 
   return (
     <div className="">

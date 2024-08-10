@@ -125,7 +125,7 @@ export default function Home() {
             </h1>
 
             <h1 className=" uppercase text-center items-center relative top-36 lg:top-48 font-bold  text-Cabaret">
-              Time : <span className="text-blacks">9.30 AM</span>
+              Time : <span className="text-blacks">8.30 AM</span>
             </h1>
             <Link href={{ pathname: "/matchdetails", query: { ...match5 } }}>
               <MatchPages
@@ -143,7 +143,7 @@ export default function Home() {
             </h1>
 
             <h1 className=" uppercase text-center items-center relative top-36 lg:top-48 font-bold  text-Cabaret">
-              Time : <span className="text-blacks">10.00 PM</span>
+              Time : <span className="text-blacks">09.00 AM</span>
             </h1>
 
             <Link href={{ pathname: "/matchdetails", query: { ...match6 } }}>
@@ -171,7 +171,7 @@ export default function Home() {
             </h1>
 
             <h1 className=" uppercase text-center items-center relative top-36 lg:top-48 font-bold  text-Cabaret">
-              Time : <span className="text-blacks">9.30 AM</span>
+              Time : <span className="text-blacks">08.30 AM</span>
             </h1>
             <Link href={{ pathname: "/matchdetails", query: { ...match7 } }}>
               <MatchPages
@@ -189,7 +189,7 @@ export default function Home() {
             </h1>
 
             <h1 className=" uppercase text-center items-center relative top-36 lg:top-48 font-bold  text-Cabaret">
-              Time : <span className="text-blacks">10.00 PM</span>
+              Time : <span className="text-blacks">09.00 PM</span>
             </h1>
 
             <Link href={{ pathname: "/matchdetails", query: { ...match8 } }}>
@@ -204,6 +204,50 @@ export default function Home() {
             </Link>
           </div>
           {/* **********************************|| GROUP D || ***************************************** */}
+          {/* **********************************|| QUARTER FINAL || ***************************************** */}
+          <div className="mt-16  ">
+            <h1 className=" uppercase text-Tamarillo text-3xl font-semibold text-center">
+              QUARTER FINAL MATCHES
+            </h1>
+
+            <h1 className=" uppercase text-center items-center relative top-20 lg:top-24 font-bold text-1xl text-Tamarillo">
+              QUATER FINAL
+            </h1>
+
+            <h1 className=" uppercase text-center items-center relative top-36 lg:top-48 font-bold  text-Cabaret">
+              FULL <span className="text-blacks">TIME</span>
+            </h1>
+            <Link href={{ pathname: "/matchdetails", query: { ...match7 } }}>
+              <MatchPages
+                team1Name="ALL_ROUNDER"
+                team2Name="WADI_BOYS"
+                team1Image="all-rounder.jpg"
+                team2Image="wadi-boys.jpg"
+                team1score="1"
+                team2score="0"
+              />
+            </Link>
+
+            <h1 className=" uppercase text-center items-center relative top-20 lg:top-24 font-bold text-1xl text-Tamarillo">
+              QUATER FINAL
+            </h1>
+
+            <h1 className=" uppercase text-center items-center relative top-36 lg:top-48 font-bold  text-Cabaret">
+              FULL <span className="text-blacks">TIME</span>
+            </h1>
+
+            <Link href={{ pathname: "/matchdetails", query: { ...match8 } }}>
+              <MatchPages
+                team1Name="CTG"
+                team2Name="ALL_ULTIMATE"
+                team1Image="dbu.jpg"
+                team2Image="st-jude.jpg"
+                team1score="1"
+                team2score="0"
+              />
+            </Link>
+          </div>
+          {/* **********************************|| QUARTER FINAL || ***************************************** */}
         </div>
       </Suspense>
     </>
