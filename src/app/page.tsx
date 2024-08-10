@@ -9,6 +9,9 @@ import {
   match6,
   match7,
   match8,
+  matchQF1,
+  matchQF2,
+  matchSF1,
 } from "@/data/data";
 import { Suspense } from "react";
 
@@ -32,8 +35,9 @@ export default function Home() {
             </h1>
 
             <h1 className=" uppercase text-center items-center relative top-36 lg:top-48 font-bold  text-Cabaret">
-              Time : <span className="text-blacks">09.00 AM</span>
+              Full <span className="text-blacks">Time</span>
             </h1>
+
             <Link href={{ pathname: "/matchdetails", query: { ...match1 } }}>
               <MatchPages
                 team1Name="ALL.ROUNDER"
@@ -50,7 +54,7 @@ export default function Home() {
             </h1>
 
             <h1 className=" uppercase text-center items-center relative top-36 lg:top-48 font-bold  text-Cabaret">
-              Time : <span className="text-blacks">09.45 AM</span>
+              Full <span className="text-blacks">Time</span>
             </h1>
 
             <Link href={{ pathname: "/matchdetails", query: { ...match2 } }}>
@@ -59,7 +63,7 @@ export default function Home() {
                 team2Name="PALI.PIRATES"
                 team1Image="wadi-boys.jpg"
                 team2Image="https://assets.codepen.io/285131/chelsea.svg"
-                team1score="0"
+                team1score="1"
                 team2score="0"
               />
             </Link>
@@ -77,7 +81,7 @@ export default function Home() {
             </h1>
 
             <h1 className=" uppercase text-center items-center relative top-36 lg:top-48 font-bold  text-Cabaret">
-              Time : <span className="text-blacks">09.00 AM</span>
+              Full <span className="text-blacks">Time</span>
             </h1>
             <Link href={{ pathname: "/matchdetails", query: { ...match3 } }}>
               <MatchPages
@@ -95,7 +99,7 @@ export default function Home() {
             </h1>
 
             <h1 className=" uppercase text-center items-center relative top-36 lg:top-48 font-bold  text-Cabaret">
-              Time : <span className="text-blacks">09.45 PM</span>
+              Full <span className="text-blacks">Time</span>
             </h1>
 
             <Link href={{ pathname: "/matchdetails", query: { ...match4 } }}>
@@ -217,7 +221,7 @@ export default function Home() {
             <h1 className=" uppercase text-center items-center relative top-36 lg:top-48 font-bold  text-Cabaret">
               FULL <span className="text-blacks">TIME</span>
             </h1>
-            <Link href={{ pathname: "/matchdetails", query: { ...match7 } }}>
+            <Link href={{ pathname: "/matchdetails", query: { ...matchQF1 } }}>
               <MatchPages
                 team1Name="ALL_ROUNDER"
                 team2Name="WADI_BOYS"
@@ -236,18 +240,43 @@ export default function Home() {
               FULL <span className="text-blacks">TIME</span>
             </h1>
 
-            <Link href={{ pathname: "/matchdetails", query: { ...match8 } }}>
+            <Link href={{ pathname: "/matchdetails", query: { ...matchQF2 } }}>
               <MatchPages
-                team1Name="CTG"
-                team2Name="ALL_ULTIMATE"
-                team1Image="dbu.jpg"
-                team2Image="st-jude.jpg"
-                team1score="1"
-                team2score="0"
+                team1Name="ALL_ULTIMATE"
+                team2Name="CTG"
+                team1Image="allultimate.jpg"
+                team2Image="ctg.jpg"
+                team1score="0"
+                team2score="1"
               />
             </Link>
           </div>
           {/* **********************************|| QUARTER FINAL || ***************************************** */}
+          {/* **********************************|| SEMI FINAL || ***************************************** */}
+          <div className="mt-16  ">
+            <h1 className=" uppercase text-Tamarillo text-3xl font-semibold text-center">
+              SEMI FINAL MATCHES
+            </h1>
+
+            <h1 className=" uppercase text-center items-center relative top-20 lg:top-24 font-bold text-1xl text-Tamarillo">
+              SEMI FINAL
+            </h1>
+
+            <h1 className=" uppercase text-center items-center relative top-36 lg:top-48 font-bold  text-Cabaret">
+              FULL <span className="text-blacks">TIME</span>
+            </h1>
+            <Link href={{ pathname: "/matchdetails", query: { ...matchSF1 } }}>
+              <MatchPages
+                team1Name="ALL_ROUNDER"
+                team2Name="ctg"
+                team1Image="all-rounder.jpg"
+                team2Image="ctg.jpg"
+                team1score="3"
+                team2score="0"
+              />
+            </Link>
+          </div>
+          {/* **********************************|| SEMI FINAL || ***************************************** */}
         </div>
       </Suspense>
     </>

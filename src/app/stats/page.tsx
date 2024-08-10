@@ -29,33 +29,33 @@ const Page = () => {
               <tbody>
                 <tr className="border-b ">
                   <td className="px-4 py-2">1</td>
-                  <td className="px-4 py-2">Royden</td>
-                  <td className="px-4 py-2">NFC</td>
-                  <td className="px-4 py-2">0</td>
+                  <td className="px-4 py-2">oliver</td>
+                  <td className="px-4 py-2">ARC</td>
+                  <td className="px-4 py-2">2</td>
                 </tr>
                 <tr className="bg-gray-50 border-b">
                   <td className="px-4 py-2">2</td>
-                  <td className="px-4 py-2">Russel</td>
-                  <td className="px-4 py-2">STC</td>
-                  <td className="px-4 py-2">0</td>
+                  <td className="px-4 py-2">NIGEL</td>
+                  <td className="px-4 py-2">WODI BOYS</td>
+                  <td className="px-4 py-2">1</td>
                 </tr>
                 <tr className="bg-gray-50 border-b">
                   <td className="px-4 py-2">3</td>
-                  <td className="px-4 py-2">Brijal</td>
-                  <td className="px-4 py-2">D.F.C</td>
-                  <td className="px-4 py-2">0</td>
+                  <td className="px-4 py-2">SAMIR</td>
+                  <td className="px-4 py-2">CTG</td>
+                  <td className="px-4 py-2">1</td>
                 </tr>
                 <tr className="bg-gray-50 border-b">
                   <td className="px-4 py-2">4</td>
-                  <td className="px-4 py-2">josten</td>
-                  <td className="px-4 py-2">stc</td>
-                  <td className="px-4 py-2">0</td>
+                  <td className="px-4 py-2">SWAPNIL</td>
+                  <td className="px-4 py-2">ARC</td>
+                  <td className="px-4 py-2">1</td>
                 </tr>
                 <tr className="bg-gray-50 border-b">
                   <td className="px-4 py-2">5</td>
-                  <td className="px-4 py-2">yona</td>
-                  <td className="px-4 py-2">nfc</td>
-                  <td className="px-4 py-2">0</td>
+                  <td className="px-4 py-2">RAHUL</td>
+                  <td className="px-4 py-2">ARC</td>
+                  <td className="px-4 py-2">1</td>
                 </tr>
                 {/* <!-- Add more rows as needed --> */}
               </tbody>
@@ -87,15 +87,15 @@ const Page = () => {
               <tbody>
                 <tr className="border-b  ">
                   <td className="px-4 py-2">1</td>
-                  <td className="px-4 py-2">Aniket</td>
-                  <td className="px-4 py-2">NFC</td>
-                  <td className="px-4 py-2">0</td>
+                  <td className="px-4 py-2">LINCON</td>
+                  <td className="px-4 py-2">ARC</td>
+                  <td className="px-4 py-2">1</td>
                 </tr>
                 <tr className="bg-gray-50 border-b">
                   <td className="px-4 py-2">2</td>
-                  <td className="px-4 py-2">godson</td>
-                  <td className="px-4 py-2">dbu</td>
-                  <td className="px-4 py-2">0</td>
+                  <td className="px-4 py-2">OLIVER</td>
+                  <td className="px-4 py-2">ARC</td>
+                  <td className="px-4 py-2">1</td>
                 </tr>
                 <tr className="bg-gray-50 border-b">
                   <td className="px-4 py-2">3</td>
