@@ -54,7 +54,7 @@ const Page = () => {
                 <tr className="bg-gray-50 border-b">
                   <td className="px-4 py-2">5</td>
                   <td className="px-4 py-2">RAHUL</td>
-                  <td className="px-4 py-2">ARC</td>
+                  <td className="px-4 py-2">DBU</td>
                   <td className="px-4 py-2">1</td>
                 </tr>
                 {/* <!-- Add more rows as needed --> */}
@@ -101,7 +101,7 @@ const Page = () => {
                   <td className="px-4 py-2">3</td>
                   <td className="px-4 py-2">Brijal</td>
                   <td className="px-4 py-2">D.F.C</td>
-                  <td className="px-4 py-2">0</td>
+                  <td className="px-4 py-2">1</td>
                 </tr>
                 <tr className="bg-gray-50 border-b">
                   <td className="px-4 py-2">4</td>
