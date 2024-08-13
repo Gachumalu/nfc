@@ -131,9 +131,8 @@ export default function Home() {
             <h1 className=" uppercase text-center items-center relative top-20 lg:top-24 font-bold text-2xl text-Tamarillo">
               match 5
             </h1>
-
             <h1 className=" uppercase text-center items-center relative top-36 lg:top-48 font-bold  text-Cabaret">
-              Time : <span className="text-blacks">8.30 AM</span>
+              FULL <span className="text-blacks">TIME</span>
             </h1>
             <Link href={{ pathname: "/matchdetails", query: { ...match5 } }}>
               <MatchPages
@@ -151,7 +150,7 @@ export default function Home() {
             </h1>
 
             <h1 className=" uppercase text-center items-center relative top-36 lg:top-48 font-bold  text-Cabaret">
-              Time : <span className="text-blacks">09.00 AM</span>
+              FULL <span className="text-blacks">TIME</span>
             </h1>
 
             <Link href={{ pathname: "/matchdetails", query: { ...match6 } }}>
@@ -179,7 +178,7 @@ export default function Home() {
             </h1>
 
             <h1 className=" uppercase text-center items-center relative top-36 lg:top-48 font-bold  text-Cabaret">
-              Time : <span className="text-blacks">08.30 AM</span>
+              FULL <span className="text-blacks">TIME</span>
             </h1>
             <Link href={{ pathname: "/matchdetails", query: { ...match7 } }}>
               <MatchPages
@@ -197,7 +196,7 @@ export default function Home() {
             </h1>
 
             <h1 className=" uppercase text-center items-center relative top-36 lg:top-48 font-bold  text-Cabaret">
-              Time : <span className="text-blacks">09.00 PM</span>
+              FULL <span className="text-blacks">TIME</span>
             </h1>
 
             <Link href={{ pathname: "/matchdetails", query: { ...match8 } }}>
@@ -206,7 +205,7 @@ export default function Home() {
                 team2Name="ST.JUDE"
                 team1Image="dbu.jpg"
                 team2Image="st-jude.jpg"
-                team1score="0"
+                team1score="1"
                 team2score="0"
               />
             </Link>
