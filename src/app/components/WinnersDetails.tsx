@@ -199,42 +199,42 @@ const cards = [
   {
     description: "NFC 2024 WINNERS",
     title: "CHAPMIONS",
-    src: "/nfc1.jpg",
+    src: "/win.jpg",
   },
   {
     description: "NFC 2024 RUNNERS UP",
     title: "RUNNERS UP",
-    src: "/nfc1.jpg",
+    src: "/run.jpg",
   },
   {
     // description: "NFC 2025 PLAYER OF THE TOURNAMENT",
     title: "BEST PLAYER",
-    src: "/nfc1.jpg",
+    src: "/pott.jpg",
   },
   {
     // description: "TOP SCORER OF THE TOURNAMENT",
     title: "TOP SCORER",
-    src: "/nfc1.jpg",
+    src: "/ts.jpg",
   },
   {
     // description: "BEST GOALKEEPER OF THE TOURNAMENT",
     title: "BEST GOALKEEPER",
-    src: "/nfc1.jpg",
+    src: "/gk.jpg",
   },
   {
     // description: "BEST DEFENDER OF THE TOURNAMENT",
     title: "BEST DEFENDER ",
-    src: "/nfc1.jpg",
+    src: "/bd.jpg",
   },
   {
     // description: "BEST YOUNG TALENT  OF THE TOURNAMENT",
     title: "BEST YOUNG TALENT",
-    src: "/nfc1.jpg",
+    src: "/yp.jpg",
   },
 
   {
     // description: "SKIL TALENT  OF THE TOURNAMENT",
     title: "BEST SIKLL PLAYER",
-    src: "/nfc1.jpg",
+    src: "/sp.jpg",
   },
 ];
