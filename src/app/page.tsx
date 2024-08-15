@@ -359,7 +359,7 @@ export default function Home() {
             </h1>
 
             <h1 className=" uppercase text-center items-center relative top-36 lg:top-48 font-bold  text-Cabaret">
-              12 : <span className="text-blacks">30</span>
+              Full <span className="text-blacks">Time</span>
             </h1>
             <Link
               href={{ pathname: "/matchdetails", query: { ...matchFINAL } }}
@@ -369,8 +369,8 @@ export default function Home() {
                 team2Name="ALL_ROUNDER"
                 team1Image="dfc.jpg"
                 team2Image="all-rounder.jpg"
-                team1score=""
-                team2score=""
+                team1score="1"
+                team2score="0"
               />
             </Link>
           </div>

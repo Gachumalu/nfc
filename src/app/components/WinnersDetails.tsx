@@ -231,4 +231,10 @@ const cards = [
     title: "BEST YOUNG TALENT",
     src: "/nfc1.jpg",
   },
+
+  {
+    // description: "SKIL TALENT  OF THE TOURNAMENT",
+    title: "BEST SIKLL PLAYER",
+    src: "/nfc1.jpg",
+  },
 ];
